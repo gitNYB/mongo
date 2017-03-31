@@ -305,7 +305,7 @@ Model模型，是经过Schema构造来的，除了Schema定义的数据库骨架
     //先创建Schema
     var TankSchema = new Schema({
       name:'String',
-      size:'String'
+      size:'String' 
     });
     //通过Schema创建Model
     var TankModel = mongoose.model('Tank',TankSchema);
